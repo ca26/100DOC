@@ -1,3 +1,5 @@
+#This a Tip calcultor project, taking the total bill adding a tip amount, and determining how much each person should pay.
+
 print("Welcome to the tip calc")
 bill = float(input("What was the total bill? "))
 percent = float(input("What percent tip? 10, 12, 15? "))
