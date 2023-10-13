@@ -28,15 +28,15 @@ print("Your mission is to find the treasure.")
 
 #Write your code below this line 👇
 Direction = input("welcome pick left or right: ")
-if Direction == str('left'):
+if Direction == str('left' or 'Left'):
     wait = input('swim or wait? ')
     if wait == str('wait'):
       door = input('red, yellow, blue: ')
-      if door == ('red'):
+      if door == ('red' or 'Red'):
         print("Burned by fire. Game Over.")
-      elif door == ('yellow'):
+      elif door == ('yellow' or 'Yellow'):
         print("you win!")
-      elif door == ('blue'):
+      elif door == ('blue' or 'Blue'):
         print("eaten by beasts. Game Over")
       else:
         print("game over")
